@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Flexo-Medium", arial, sans-serif;
+    color: rgb(26, 31, 46);
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    /*background-size: cover;
+    background: url(./pokebola_fundo-removebg-preview.png) no-repeat center center fixed;*/
+    background-color: rgb(180, 176, 176);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+div img{
+    width: 90px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 7px
+}
+
+.container{
+    text-align: center;
+}
+
+.container, name, h1{
+    font-size: 60px;
+}
+
+.container, name, h5{
+    font-size: 23px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex div{
+    border: solid;
+    margin: 15px;
+    flex-basis: 100%;
+    background-color: gray;
+}
+
+.flex img{
+    max-width: 200px;
+}
+
+.flex p{
+    font-size: 18px;
+}
+#about-me p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form{
+    margin: 0 auto;
+    width: 40%;
+}
+
+.form input{
+    width: 50%;
+}
+
+.form button {
+    width: 15%;
+}
