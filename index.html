@@ -4,14 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="assets/css/index.css" />
+    <link href="assets/css/index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script src="assets/js/index.js" defer></script>
     <title>JulioC Moreira - Portifólio</title>
   </head>
   <body>
     <header>
       <!-- deixar o flex padrao -->
-      <h5>JulioC<br />Moreira</h5>
+      <div class="container-logo">
+        <img src="assets/svg/logo-img.svg" id="logo-img" alt="logo morango" />
+        <h5 id="logo-title">JulioC<br />Moreira</h5>
+      </div>
+
       <nav>
         <!-- deixar o flex padrao -->
         <a href="#contato"> contato </a>
@@ -23,7 +31,7 @@
       <!-- colocar um flex-direction colum -->
       <section>
         <!-- deixar o flex padrao -->
-        <div>
+        <div class="apresentacao">
           <!-- colocar um flex direction colum nesta div -->
           <img src="#" alt="img julio" />
           <h2>Julio César Moreira</h2>
@@ -46,7 +54,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="projetos">
         <!-- flex colum -->
         <h2>Meus projetos</h2>
         <div>
@@ -65,7 +73,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="habilidades">
         <!-- flex colum -->
         <h2>Minhas habilidades</h2>
         <div>
@@ -93,7 +101,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="contato">
         <h2>Contato</h2>
         <div>
           <!-- flex row -->
